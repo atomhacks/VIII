@@ -8,9 +8,21 @@ export default function Home() {
       <Head>
         <title>Atomhacks</title>
       </Head>
-    
       <div className={styles.container}>
-        <h1>AHHHHHHHHHHHHHHHHHHHHHHHHHHHHtom Hacks :)</h1>
+        <div className={styles.landing}>
+          <div>
+            <Image 
+              src="/images/logo.png" 
+              alt="atomhacks logo"
+              height={500}
+              width={500}
+            >
+            </Image>
+          </div>
+          <div className={styles.content}>
+            <h1>AtomHacks</h1>
+          </div>
+        </div>
       </div>
     </>
   )

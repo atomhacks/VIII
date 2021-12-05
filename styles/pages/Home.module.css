@@ -1,8 +1,17 @@
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  padding: 0 2rem;
+
   text-align: center;
+}
+
+.landing {
+  display: grid;
+  grid-template-areas: 
+    "left right";
+  padding: 2rem;
+  color: #fff;
+  height: 100vh;
+}
+
+.content {
+  width: 70%;
 }
