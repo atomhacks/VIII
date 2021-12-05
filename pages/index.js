@@ -16,8 +16,7 @@ export default function Home() {
               alt="atomhacks logo"
               height={500}
               width={500}
-            >
-            </Image>
+            />
           </div>
           <div className={styles.content}>
             <h1 className={styles.title}>Atom Hacks</h1>

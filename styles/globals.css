@@ -3,6 +3,12 @@
   src: url("../styles/fonts/Aquire-BW0ox.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Aquire-Light";
+  src: url("../styles/fonts/AquireLight-YzE0o.otf") format("opentype");
+}
+
+
 html,
 body {
   padding: 0;

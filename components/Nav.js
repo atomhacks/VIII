@@ -21,7 +21,7 @@ const Nav = () => {
                 width={50}
             >
             </Image>
-            <h2 className={navStyles.navItem}>AtomHacks</h2>
+            <h2 className={`${navStyles.navItem} ${navStyles.home}`}>AtomHacks</h2>
             <div className={navStyles.right}>
                 {routes.map((route, i) => (
                     <Link

@@ -7,7 +7,7 @@
   display: grid;
   grid-template-areas: 
     "left right";
-  padding: 5rem 0;
+  padding: 5rem 5rem;
   color: #fff;
   height: 100vh;
 }
@@ -22,16 +22,17 @@
 .title {
   font-size: 600%;
   margin-bottom: 0;
+  text-shadow: 3px 3px #000;
 }
 
 .btn {
   display: inline-block;
   width: 300px;
   padding: 8px 0;
-  background: #d509f4;
+  background: #f4e509;
   border: none;
   border-radius: 35px;
-  color: white;
+  color: #000;
   margin: auto;
   margin-top: 5rem;
   transition: 200ms ease;
@@ -41,5 +42,6 @@
 
 .btn:hover {
   cursor: pointer;
-  
+  transform: scale(1.1);
 }
+
