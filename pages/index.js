@@ -20,7 +20,8 @@ export default function Home() {
             </Image>
           </div>
           <div className={styles.content}>
-            <h1>AtomHacks</h1>
+            <h1 className={styles.title}>AtomHacks</h1>
+            <h1>Coming soon!</h1>
           </div>
         </div>
       </div>
