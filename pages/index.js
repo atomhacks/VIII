@@ -20,8 +20,12 @@ export default function Home() {
             </Image>
           </div>
           <div className={styles.content}>
-            <h1 className={styles.title}>AtomHacks</h1>
+            <h1 className={styles.title}>Atom Hacks</h1>
+            <h1>Bronx Science's 12-hour Annual Hackathon!</h1>
             <h1>Coming soon!</h1>
+            <button className={styles.btn}>
+              <h2>Register!</h2>
+            </button>
           </div>
         </div>
       </div>

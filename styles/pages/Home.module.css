@@ -23,3 +23,23 @@
   font-size: 600%;
   margin-bottom: 0;
 }
+
+.btn {
+  display: inline-block;
+  width: 300px;
+  padding: 8px 0;
+  background: #d509f4;
+  border: none;
+  border-radius: 35px;
+  color: white;
+  margin: auto;
+  margin-top: 5rem;
+  transition: 200ms ease;
+  font-size: 125%;
+  font-family: Aquire;
+}
+
+.btn:hover {
+  cursor: pointer;
+  
+}
