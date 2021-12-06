@@ -13,11 +13,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(
-    168deg,
-    #00b768 80%,
-    #fff 0%
-  );
+  background: #00b768;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }

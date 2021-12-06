@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '@styles/pages/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '@styles/sections/Home.module.css';
+import aboutStyles from '@styles/sections/About.module.css';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Head>
         <title>Atomhacks</title>
       </Head>
+
       <div className={styles.container}>
         <div className={styles.landing}>
           <div className={styles.logoDiv}>
@@ -27,6 +29,10 @@ export default function Home() {
               <h2>Register!</h2>
             </button>
           </div>
+        </div>
+
+        <div className={aboutStyles.aboutDiv}>
+          <h1 className={aboutStyles.title}>But like, what even is a hackathon?</h1>
         </div>
       </div>
     </>

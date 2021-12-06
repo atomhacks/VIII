@@ -1,5 +1,4 @@
 .container {
-
   text-align: center;
 }
 
@@ -7,7 +6,12 @@
   display: grid;
   grid-template-areas: 
     "left right";
-  padding: 5rem 5rem;
+  padding: 6rem 5rem;
+  background: linear-gradient(
+    175deg,
+    #00b768 80%,
+    #fff 0%
+  );
   color: #fff;
   height: 100vh;
 }
