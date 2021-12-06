@@ -31,8 +31,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={aboutStyles.aboutDiv}>
-          <h1 className={aboutStyles.title}>But like, what even is a hackathon?</h1>
+        <div className={aboutStyles.aboutDiv} id="about">
+          <div>
+            <h1 className={aboutStyles.title}>About</h1>
+            <h2>AAAAAAAAHHHHHHHHHH</h2>
+          </div>
+          <div>
+            <h1 className>test</h1>
+          </div>
         </div>
       </div>
     </>

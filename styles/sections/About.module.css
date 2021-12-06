@@ -1,17 +1,17 @@
 .aboutDiv {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-areas: 
+      "left right";
     text-align: center;
-    height: 100%;
-    padding: 5rem 5rem;
+    height: 100vh;
+    padding: 1rem 5rem;
     background-color: #fff;
 
 }
 
 .title {
     font-size: 600%;
-    margin-bottom: 0;
+    margin-top: 0;
+    text-shadow: -4px 3px #00b768;
     font-family: Aquire;
 }
