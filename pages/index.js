@@ -37,7 +37,7 @@ export default function Home() {
             <h2>AAAAAAAAHHHHHHHHHH</h2>
           </div>
           <div>
-            <h1 className>test</h1>
+            <h1 className>(cool image placehold)</h1>
           </div>
         </div>
       </div>
