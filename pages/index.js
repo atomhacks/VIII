@@ -32,12 +32,9 @@ export default function Home() {
         </div>
 
         <div className={aboutStyles.aboutDiv} id="about">
-          <div>
+          <div className={aboutStyles.content}>
             <h1 className={aboutStyles.title}>About</h1>
-            <h2>AAAAAAAAHHHHHHHHHH</h2>
-          </div>
-          <div>
-            <h1 className>(cool image placehold)</h1>
+            <h2>AtomHacks is committed to creating and organizing innovative and interactive coding competitions for the Bronx High School of Science. We are driven to give back to our community and provide transformative computer science opportunities for students of all levels.</h2>
           </div>
         </div>
       </div>
