@@ -13,9 +13,18 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background: #00b768;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.default-bg {
+  background: #00b768;
+}
+
+.gallery-bg {
+  background-image: url("../public/images/gallerybanner.png");
+  width: 100%;
+  height: 100%;
 }
 
 a {
@@ -29,4 +38,18 @@ a {
 
 .container {
   padding: 1.5rem 8rem;
+}
+
+/* found this reusable enough to put into globals, feel free
+to make your own version of this if you need it */
+.title {
+    font-size: 600%;
+    margin-top: 0;
+    font-family: Aquire;
+}
+
+.content {
+  text-align: left;
+  padding: 0 5rem;
+  width: 60%;
 }

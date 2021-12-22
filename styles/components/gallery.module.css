@@ -1,0 +1,19 @@
+.galleryDiv {
+    grid-template-areas: 
+        "left right";
+    text-align: center;
+    color: white;
+}
+
+.titleshadow {
+    text-shadow: -4px 3px #8e8e8e;
+}
+
+.mainBody {
+  background: #e1e1e1;
+  height: 100vh;
+  color: black;
+  text-align: left;
+  padding: 5px 5rem;
+}
+
