@@ -11,9 +11,13 @@
 
 .mainBody {
   background: #e1e1e1;
+  text-align: center;
   height: 100vh;
   color: black;
   text-align: left;
   padding: 5px 5rem;
+  display: grid;
+  grid-template-areas: 
+    "p1 p2";
 }
 

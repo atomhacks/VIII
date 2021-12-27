@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import About from '@components/About';
+
 import styles from '@styles/sections/Home.module.css';
-import aboutStyles from '@styles/sections/About.module.css';
 
 export default function Home() {
   return (
@@ -30,13 +31,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-
-        <div className={aboutStyles.aboutDiv} id="about">
-          <div className={aboutStyles.content}>
-            <h1 className={aboutStyles.title}>About</h1>
-            <h2>AtomHacks is committed to creating and organizing innovative and interactive coding competitions for the Bronx High School of Science. We are driven to give back to our community and provide transformative computer science opportunities for students of all levels.</h2>
-          </div>
-        </div>
+        <About />
       </div>
     </>
   )
