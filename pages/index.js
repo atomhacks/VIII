@@ -14,13 +14,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.landing}>
           <div className={styles.logoDiv}>
-            <Image 
-              src="/images/logo.png" 
-              alt="atomhacks logo"
-              height={500}
-              width={500}
-              className={styles.logo}
-            />
+            <img src="/images/logos/logo.png" alt="atomhacks logo" className={styles.logo} />
           </div>
           <div className={styles.content}>
             <h1 className={styles.title}>Atom Hacks</h1>

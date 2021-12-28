@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import aboutStyles from '@styles/sections/About.module.css';
 
 const About = () => {
@@ -6,6 +7,9 @@ const About = () => {
           <div className={aboutStyles.content}>
             <h1 className={aboutStyles.title}>About</h1>
             <h2>AtomHacks is committed to creating and organizing innovative and interactive coding competitions for the Bronx High School of Science. We are driven to give back to our community and provide transformative computer science opportunities for students of all levels.</h2>
+          </div>
+          <div>
+            <img src="/images/logos/logo2.svg" alt="logo2" className={aboutStyles.logo} />
           </div>
         </div>
     );
