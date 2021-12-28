@@ -27,3 +27,9 @@
   height: 400px;
   margin: 0 6em;
 }
+
+.desc {
+  font-size: 150%;
+  line-height: 1.4;
+  
+}
