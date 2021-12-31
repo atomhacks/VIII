@@ -8,6 +8,7 @@ import SwiperCore, {
 import Image from "next/image";
 
 SwiperCore.use([Navigation]);
+//Testing Swiper Slides
 
 export default function Gallery() {
     return (
