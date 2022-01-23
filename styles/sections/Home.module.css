@@ -9,7 +9,7 @@
   padding: 6rem 0em;
   background: #00b768;
   color: #fff;
-  height: 120%;
+  height: 100vh;
 } 
 
 .logo {
@@ -17,7 +17,6 @@
   height: 600px;
   animation: hover 3500ms infinite;
 }
-
 
 .content {
   font-family: Aquire;
