@@ -18,18 +18,18 @@
 
 .content {
   text-align: left;
-  padding: 0 3rem;
+  padding: 0 0 0 3rem;
   width: 80%;
 }
 
 .logo {
-  width: 400px;
-  height: 400px;
-  margin: 0 6em;
+  width: 600px;
+  height: 600px;
+  margin: 0em 2em 0 0;
 }
 
 .desc {
-  font-size: 150%;
+  font-size: 220%;
   line-height: 1.4;
   
 }

@@ -7,7 +7,7 @@ const About = () => {
           <div className={aboutStyles.content}>
             <h1 className={aboutStyles.title}>About</h1>
             <p className={aboutStyles.desc}>
-              <b>AtomHacks is committed to creating and organizing innovative and interactive coding competitions for the Bronx High School of Science. We are driven to give back to our community and provide transformative computer science opportunities for students of all levels.</b>
+              AtomHacks is committed to creating and organizing innovative and interactive coding competitions for the Bronx High School of Science. We are driven to give back to our community and provide transformative computer science opportunities for students of all levels.
             </p>
           </div>
           <div>
