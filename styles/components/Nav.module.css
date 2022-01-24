@@ -41,6 +41,12 @@
     justify-content: flex-start;
 }
 
+@media screen and (max-width: 1025px) {
+  .navbar {
+    display: none;
+  }
+}
+
 @keyframes glitch {
   0% {
     text-shadow: 

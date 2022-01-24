@@ -46,9 +46,9 @@ a {
 /* found this reusable enough to put into globals, feel free
 to make your own version of this if you need it */
 .title {
-    font-size: 600%;
-    margin-top: 0;
-    font-family: Aquire;
+  font-size: 600%;
+  margin-top: 0;
+  font-family: Aquire;
 }
 
 .content {

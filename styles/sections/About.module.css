@@ -33,3 +33,26 @@
   line-height: 1.4;
   
 }
+
+@media screen and (max-width: 1025px) {
+  .aboutDiv {
+    padding: 4rem 0;
+    grid-template-areas:
+      "left"
+      "right";
+  }
+
+  .title {
+    font-size: 400%;
+  }
+
+  .desc {
+    font-size: 150%;
+  }
+
+  .logo {
+    width: 300px;
+    height: 300px;
+    margin: 0; 
+  }
+}
