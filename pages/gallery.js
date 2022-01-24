@@ -17,15 +17,30 @@ export default function Gallery() {
         <Swiper navigation={true} loop={true}>
           <SwiperSlide>
             <h2>Slide 1</h2>
-            <Image src="/images/logos/logo.png" width={500} height={500} />
+            <Image
+              src="/images/logos/logo.png"
+              width={500}
+              height={500}
+              alt="img 1"
+            />
           </SwiperSlide>
           <SwiperSlide>
             <h2>Slide 2</h2>
-            <Image src="/images/logos/logo.png" width={500} height={500} />
+            <Image
+              src="/images/logos/logo.png"
+              width={500}
+              height={500}
+              alt="img 2"
+            />
           </SwiperSlide>
           <SwiperSlide>
             <h2>Slide 3</h2>
-            <Image src="/images/logos/logo.png" width={500} height={500} />
+            <Image
+              src="/images/logos/logo.png"
+              width={500}
+              height={500}
+              alt="img 3"
+            />
           </SwiperSlide>
         </Swiper>
       </div>

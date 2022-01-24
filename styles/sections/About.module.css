@@ -3,7 +3,7 @@
     grid-template-areas: 
       "left right";
     text-align: center;
-    height: 100vh;
+    height: 100%;
     padding: 4rem 1rem;
     background-color: #fff;
     color: #000 ;

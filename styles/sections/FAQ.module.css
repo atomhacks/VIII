@@ -1,0 +1,10 @@
+.FAQdiv {
+    display: grid;
+    grid-template-areas: 
+      "left right";
+    text-align: center;
+    height: 100vh;
+    padding: 4rem 1rem;
+    background-color: #00b768;
+    color: #fff ;
+}

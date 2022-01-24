@@ -15,7 +15,7 @@ const Nav = () => {
   return (
     <nav className={navStyles.navbar}>
       <Image
-        src="/images/logo.png"
+        src="/images/logos/logo.png"
         alt="atomhacks logo"
         height={50}
         width={50}
