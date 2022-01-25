@@ -14,10 +14,12 @@ const About = () => {
         </p>
       </div>
       <div>
-        <img
+        <Image
           src="/images/logos/logo2.svg"
           alt="logo2"
           className={aboutStyles.logo}
+          width={600}
+          height={600}
         />
       </div>
     </div>

@@ -15,10 +15,12 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.landing}>
           <div className={styles.logoDiv}>
-            <img
+            <Image
               src="/images/logos/logo.png"
               alt="atomhacks logo"
               className={styles.logo}
+              width={600}
+              height={600}
             />
           </div>
           <div className={styles.content}>

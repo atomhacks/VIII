@@ -8,3 +8,10 @@
     background-color: #00b768;
     color: #fff ;
 }
+
+.title {
+    font-size: 600%;
+    margin-top: 0;
+    text-shadow: 4px 3px #000;
+    font-family: Aquire;
+}
