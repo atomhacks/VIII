@@ -19,11 +19,16 @@
     grid-template-areas:
         "q1 q2";
     text-align: center;
-    margin-top: 3rem;
 }
 
 .question {
     margin: 2rem;
+    margin-top: 5rem;
     font-size: 225%;
     font-family: Aquire;
+}
+
+.answer {
+    font-size: 140%;
+    padding: 1rem 5rem;
 }

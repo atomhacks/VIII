@@ -4,32 +4,32 @@ const questions = [
   {
     question: "WHAT IS A HACKATHON?",
     answer:
-      "A hackathon is a short event focused on creating projects that typically have something to do with computer engineering or computer science. Aside from the amazing experience, they are often viewed as learning events, as you can take a lot away from attending one, and as gatherings, as you can meet many people with the same interests.",
+      "A hackathon is a short event focused on creating projects that typically have something to do with computer engineering or computer science.",
   },
   {
     question: "WHO CAN ATTEND?",
     answer:
-      "A hackathon is a short event focused on creating projects that typically have something to do with computer engineering or computer science. Aside from the amazing experience, they are often viewed as learning events, as you can take a lot away from attending one, and as gatherings, as you can meet many people with the same interests.",
+      "Students who are currently enrolled at Bronx Science are allowed to attend the hackathon!",
   },
   {
     question: "HOW LARGE CAN MY TEAM BE?",
     answer:
-      "A hackathon is a short event focused on creating projects that typically have something to do with computer engineering or computer science. Aside from the amazing experience, they are often viewed as learning events, as you can take a lot away from attending one, and as gatherings, as you can meet many people with the same interests.",
+      "Teams may not have more than 4 members. Students are also welcome to work solo.",
   },
   {
     question: "CAN I START WORKING IN ADVANCE?",
     answer:
-      "A hackathon is a short event focused on creating projects that typically have something to do with computer engineering or computer science. Aside from the amazing experience, they are often viewed as learning events, as you can take a lot away from attending one, and as gatherings, as you can meet many people with the same interests.",
+      "To keep the competition fair, all code used in your project must be written at the hackathon.",
   },
   {
     question: "WHAT CAN I CREATE?",
     answer:
-      "A hackathon is a short event focused on creating projects that typically have something to do with computer engineering or computer science. Aside from the amazing experience, they are often viewed as learning events, as you can take a lot away from attending one, and as gatherings, as you can meet many people with the same interests.",
+      "You can create anything you want, as long as your hack does not violate our code of conduct.",
   },
   {
     question: "WHEN IS ATOMHACKS?",
     answer:
-      "A hackathon is a short event focused on creating projects that typically have something to do with computer engineering or computer science. Aside from the amazing experience, they are often viewed as learning events, as you can take a lot away from attending one, and as gatherings, as you can meet many people with the same interests.",
+      "To be determined!",
   },
 ];
 
@@ -43,7 +43,7 @@ const FAQ = () => {
         {questions.map((ques, i) => (
           <div key={i}>
             <h1 className={faqStyles.question}>{ques.question}</h1>
-            <p>{ques.answer}</p>
+            <p className={faqStyles.answer}>{ques.answer}</p>
           </div>
         ))}
       </div>
