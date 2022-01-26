@@ -26,9 +26,11 @@
     margin-top: 5rem;
     font-size: 225%;
     font-family: Aquire;
+    text-shadow: 2px 0.5px #000;
 }
 
 .answer {
     font-size: 140%;
     padding: 1rem 5rem;
+    text-shadow: -1.5px 0.25px #000;
 }
