@@ -26,3 +26,44 @@
    
 }
 
+
+.galleryContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftSliderContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+.date{
+    width: 40%;
+    background: -webkit-linear-gradient(#00b768, #f4e509);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.date h2{
+    font-size: 100px;
+}
+.slider{
+    width: 60%;
+}
+
+
+
+
+
+
+
+.galleryContainer{
+    --swiper-navigation-color: -webkit-linear-gradient(#00b768, #f4e509);
+    --swiper-navigation-size: 23px;
+}
