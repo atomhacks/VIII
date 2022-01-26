@@ -1,4 +1,35 @@
 .teamDiv {
     height: 100vh;
     background-color: #fff;
+    text-align: left;
+    padding: 6rem 4rem;
+}
+
+.title {
+    font-size: 600%;
+    margin: 0;
+    text-shadow: -4px 3px #00b768;
+    padding: 0 3rem 0 0;
+    font-family: Aquire;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.department {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
