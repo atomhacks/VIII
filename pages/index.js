@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import About from "@components/About";
-import FAQ from "@components/FAQ";
+
+import About from "@components/sections/About";
+import FAQ from "@components/sections/FAQ";
+import Team from "@components/sections/Team";
 
 import styles from "@styles/sections/Home.module.css";
 
@@ -34,6 +36,7 @@ export default function Home() {
         </div>
         <About />
         <FAQ />
+        <Team />
       </div>
     </>
   );
