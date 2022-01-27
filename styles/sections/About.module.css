@@ -5,14 +5,14 @@
     text-align: center;
     height: 100%;
     padding: 4rem 1rem;
-    background-color: #fff;
+    background-color: #ecece8;
     color: #000 ;
 }
 
 .title {
     font-size: 600%;
     margin-top: 0;
-    text-shadow: -4px 3px #00b768;
+    text-shadow: -4px 3px 3px #00b768;
     font-family: Aquire;
 }
 

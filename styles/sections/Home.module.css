@@ -9,6 +9,7 @@
   padding: 6rem 0;
   background: #00b768;
   color: #fff;
+  text-shadow: 1px 1px 6px #7a6409;
   height: 100%;
 } 
 
@@ -28,14 +29,15 @@
 .title {
   font-size: 600%;
   margin-bottom: 0;
-  text-shadow: 3px 3px #000;
+  text-shadow: 5px 5px 6px #ffde5a;
+  animation: colorChange 2500ms infinite;
 }
 
 .btn {
   display: inline-block;
   width: 300px;
   padding: 8px 0;
-  background: #f4e509;
+  background: #ffde5a;
   border: none;
   border-radius: 35px;
   color: #000;
