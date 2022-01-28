@@ -2,9 +2,9 @@
   text-align: right;
   height: 100%;
   padding: 6rem 4rem;
-  background-color: #00b768;
+  background-color: var(--primary-color);
   text-shadow: 1px 1px 6px #7a6409;
-  color: #fff;
+  color: var(--secondary-text-color);
 }
 
 .title {
@@ -30,7 +30,7 @@
 }
 
 .answer {
-  font-size: 140%;
+  font-size: 150%;
   padding: 1rem 5rem;
 }
 
