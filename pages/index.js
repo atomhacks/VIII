@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import About from "@components/sections/About";
 import FAQ from "@components/sections/FAQ";
-import Team from "@components/sections/Team";
+import Sponsor from "@components/sections/Sponsors";
 
 import styles from "@styles/sections/Home.module.css";
 
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <About />
         <FAQ />
-        <Team />
+        <Sponsor />
       </div>
     </>
   );

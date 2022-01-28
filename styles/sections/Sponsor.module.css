@@ -1,0 +1,15 @@
+.sponsorDiv {
+  height: 100vh;
+  background-color: #00b768;
+  text-align: left;
+  padding: 6rem 4rem;
+  color: #fff;
+}
+
+.title {
+  font-size: 600%;
+  margin: 0;
+  text-shadow: 5px 3px #000;
+  padding: 0 3rem 0 0;
+  font-family: Aquire;
+}

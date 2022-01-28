@@ -28,8 +28,7 @@ const questions = [
   },
   {
     question: "WHEN IS ATOMHACKS?",
-    answer:
-      "To be determined!",
+    answer: "To be determined!",
   },
 ];
 

@@ -15,12 +15,10 @@ export default function Gallery() {
       <div className={galleryStyles.mainBody}>
         <div className={galleryStyles.galleryContainer}>
           <div className={galleryStyles.leftSliderContainer}>
-          
-              <div className={galleryStyles.date}>
-                <h2>2022</h2>
-              </div>
-            
-           
+            <div className={galleryStyles.date}>
+              <h2>2022</h2>
+            </div>
+
             <div className={galleryStyles.slider}>
               <Swiper loop={true} navigation={true}>
                 <SwiperSlide>
@@ -54,45 +52,42 @@ export default function Gallery() {
             </div>
           </div>
           <div className={galleryStyles.leftSliderContainer}>
-        
-       
-        <div className={galleryStyles.slider}>
-          <Swiper loop={true} navigation={true}>
-            <SwiperSlide>
-              <h2>Slide 1</h2>
-              <Image
-                src="/images/test1.jpeg"
-                width={700}
-                height={400}
-                alt="img 1"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <h2>Slide 2</h2>
-              <Image
-                src="/images/logos/logo.png"
-                width={500}
-                height={500}
-                alt="img 2"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <h2>Slide 3</h2>
-              <Image
-                src="/images/logos/logo.png"
-                width={500}
-                height={500}
-                alt="img 3"
-              />
-            </SwiperSlide>
-          </Swiper>
-        </div>
-        <div className={galleryStyles.date}>
-            <h2>2021</h2>
+            <div className={galleryStyles.slider}>
+              <Swiper loop={true} navigation={true}>
+                <SwiperSlide>
+                  <h2>Slide 1</h2>
+                  <Image
+                    src="/images/test1.jpeg"
+                    width={700}
+                    height={400}
+                    alt="img 1"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <h2>Slide 2</h2>
+                  <Image
+                    src="/images/logos/logo.png"
+                    width={500}
+                    height={500}
+                    alt="img 2"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <h2>Slide 3</h2>
+                  <Image
+                    src="/images/logos/logo.png"
+                    width={500}
+                    height={500}
+                    alt="img 3"
+                  />
+                </SwiperSlide>
+              </Swiper>
+            </div>
+            <div className={galleryStyles.date}>
+              <h2>2021</h2>
+            </div>
           </div>
-      </div>
         </div>
-
       </div>
     </div>
   );
