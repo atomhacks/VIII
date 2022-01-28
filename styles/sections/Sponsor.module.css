@@ -13,3 +13,17 @@
   padding: 0 3rem 0 0;
   font-family: Aquire;
 }
+
+.logos {
+    text-align: center;
+}
+
+.logo {
+    margin: 4rem;
+    width: 400px;
+}
+
+.smallPlanet {
+    margin: 4rem;
+    width: 200px;
+}
