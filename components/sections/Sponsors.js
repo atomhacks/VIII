@@ -6,13 +6,10 @@ const Sponsor = () => {
   return (
     <div className={sponsorStyles.sponsorDiv}>
       <h1 className={sponsorStyles.title}>Sponsors</h1>
+      <h1 className={sponsorStyles.sub}>Thanks to our amazing sponsors!</h1>
       <div className={sponsorStyles.logos}>
-
         <img src="/images/sponsors/digital_ocean.svg" className={sponsorStyles.logo} />
         <img src="/images/sponsors/small_planet.png" className={sponsorStyles.smallPlanet} />
-
-        
-
       </div>
     </div>
   );

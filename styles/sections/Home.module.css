@@ -29,7 +29,7 @@
 .title {
   font-size: 600%;
   margin-bottom: 0;
-  text-shadow: 5px 5px 6px #ffde5a;
+  text-shadow: 5px 5px #000;
   animation: colorChange 2500ms infinite;
 }
 
