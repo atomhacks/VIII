@@ -21,8 +21,8 @@ body {
 }
 
 :root {
-  --primary-color: #2bae66ff;
-  --background-color: #f1f4f9;
+  --primary-color: #029c59;
+  --background-color: #fff;
   --primary-text-color: #000;
   --secondary-text-color: #fff;
 }
@@ -64,3 +64,5 @@ to make your own version of this if you need it */
   padding: 0 5rem;
   width: 60%;
 }
+
+

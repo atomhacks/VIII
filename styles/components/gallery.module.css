@@ -46,11 +46,26 @@
 .date h2 {
   font-size: 100px;
 }
-.slider {
+.sliderCon {
   width: 60%;
+  
 }
 
 .galleryContainer {
   --swiper-navigation-color: -webkit-linear-gradient(#00b768, #f4e509);
   --swiper-navigation-size: 23px;
 }
+
+.prevEl{
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+.prevArrow{
+  font-size: 34px;
+}
+
+
+

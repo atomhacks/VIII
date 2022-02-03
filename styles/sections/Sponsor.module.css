@@ -15,17 +15,12 @@
 }
 
 .logos {
-  text-align: center;
-}
-
-.sub {
-  text-align: center;
-  margin: 7rem 0;
+    text-align: center;
 }
 
 .logo {
     margin: 4rem;
-    width: 750px;
+    width: 400px;
 }
 
 .smallPlanet {

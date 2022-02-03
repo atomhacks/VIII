@@ -1,5 +1,6 @@
 import '@styles/globals.css'
 import Nav from '@components/Nav.js';
+
 import { withRouter } from 'next/router'
 
 function MyApp({ Component, pageProps, router }) {
