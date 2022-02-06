@@ -35,6 +35,10 @@
   font-family: Inter;
 }
 
+.signUpDiv {
+  border: solid 2px #000;
+}
+
 @media screen and (max-width: 1025px) {
   .aboutDiv {
     padding: 4rem 0;

@@ -4,7 +4,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import SwiperCore, { EffectFade, Navigation } from "swiper";
 import Image from "next/image";
-import useEmblaCarousel from "embla-carousel-react";
+
+// import useEmblaCarousel from "embla-carousel-react/components";
 import ImageSlider from "@components/Slider";
 import { SliderData } from "@components/SliderData";
 

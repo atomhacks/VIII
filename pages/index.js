@@ -29,9 +29,11 @@ export default function Home() {
             <h1 className={styles.title}>Atom Hacks</h1>
             <h1>Bronx Science&quot;s 12-hour Annual Hackathon!</h1>
             <h1>Coming soon!</h1>
-            <button className={styles.btn}>
-              <h2>Register!</h2>
-            </button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzUW9fK_5WJjf3E94ZQRNEehO33piR3CsBzmFBHFzEM6BhVg/viewform?usp=sf_link">
+              <button className={styles.btn}>
+                <h2>Register!</h2>
+              </button>
+            </a>
           </div>
         </div>
         <About />
