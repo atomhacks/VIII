@@ -40,7 +40,7 @@ const FAQ = () => {
       </div>
       <div className={faqStyles.questionsDiv}>
         {questions.map((ques, i) => (
-          <div key={i} className={faqStyles.container}>
+          <div key={i}>
             <h1 className={faqStyles.question}>{ques.question}</h1>
             <p className={faqStyles.answer}>{ques.answer}</p>
           </div>
