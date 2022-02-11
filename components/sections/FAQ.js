@@ -52,7 +52,7 @@ const FAQ = () => {
         </div>
         <div>
           <h1 className={faqStyles.question}>WHEN IS ATOMHACKS?</h1>
-          <p className={faqStyles.answer}>To be determined!</p>
+          <p className={faqStyles.answer}>March 26th, 2022!</p>
         </div>
       </div>
     </div>
