@@ -14,3 +14,25 @@
     margin-bottom: 0;
     font-family: Aquire;
   }
+
+.icon {
+    display: inline;
+    filter: invert(100%) sepia(33%) saturate(0%) hue-rotate(179deg) brightness(114%) contrast(101%);
+    width: 30pt;
+    height: 30pt;
+    transition: 200ms ease;
+    margin: 0.5rem;
+}
+
+.icon:hover {
+    filter: invert(100%) sepia(0%) saturate(1956%) hue-rotate(49deg) brightness(110%) contrast(65%);
+}
+
+
+.iconDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+}
+
