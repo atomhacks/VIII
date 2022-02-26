@@ -31,9 +31,9 @@ const Sponsors = [
 
 const Sponsor = () => {
   return (
-    <div className={sponsorStyles.sponsorDiv} id="sponsors">
+    <div className={sponsorStyles.sponsorDiv}>
       <h1 className={sponsorStyles.title}>Sponsors</h1>
-      <p style={{'textAlign': 'center', 'fontSize': '200%', 'marginTop': '7rem', 'fontWeight': '500'}}>Thanks to our wonderful sponsors for making AtomHacks possible!</p>
+      <p style={{'textAlign': 'center', 'fontSize': '200%', 'marginTop': '6rem', 'fontWeight': '500'}}>Thanks to our wonderful sponsors for making AtomHacks possible!</p>
 
       <div className={sponsorStyles.logos}>
         {Sponsors.map((spons, i) => (
