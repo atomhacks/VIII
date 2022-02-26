@@ -25,7 +25,7 @@ const questions = [
 
 const FAQ = () => {
   return (
-    <div className={faqStyles.FAQdiv}>
+    <div className={faqStyles.FAQdiv} id="faq">
       <div>
         <h1 className={faqStyles.title}>faq</h1>
       </div>
@@ -52,7 +52,7 @@ const FAQ = () => {
         </div>
         <div>
           <h1 className={faqStyles.question}>WHEN IS ATOMHACKS?</h1>
-          <p className={faqStyles.answer}>To be determined!</p>
+          <p className={faqStyles.answer}>March 26th, 2022!</p>
         </div>
       </div>
     </div>

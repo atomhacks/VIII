@@ -31,7 +31,7 @@ const Sponsors = [
 
 const Sponsor = () => {
   return (
-    <div className={sponsorStyles.sponsorDiv}>
+    <div className={sponsorStyles.sponsorDiv} id="sponsors">
       <h1 className={sponsorStyles.title}>Sponsors</h1>
       <p style={{'textAlign': 'center', 'fontSize': '200%', 'marginTop': '7rem', 'fontWeight': '500'}}>Thanks to our wonderful sponsors for making AtomHacks possible!</p>
 
