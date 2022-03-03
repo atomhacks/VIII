@@ -7,7 +7,7 @@ const routes = [
   { name: "About", href: "/#about", current: false },
   { name: "FAQ", href: "/#faq", current: false },
   { name: "Sponsors", href: "/#sponsors", current: false },
-  { name: "Schedule", href: "/#schedule", current: false },
+  { name: "Schedule", href: "https://docs.google.com/spreadsheets/d/10TSPapLae0nMCxdQv5yM99n-H8LjH_hUHJfRZ8tXvJU/edit#gid=0", current: false },
 ];
 
 const Nav = () => {
