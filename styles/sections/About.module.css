@@ -83,4 +83,10 @@
     margin: 0; 
   }
   
+  .signUpDiv {
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
 }
