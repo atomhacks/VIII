@@ -41,6 +41,7 @@
   border-radius: 20px;
   margin: 3rem;
   padding: 3rem;
+  text-align: center;
 }
 
 .signUpButton {
@@ -64,9 +65,11 @@
 @media screen and (max-width: 1025px) {
   .aboutDiv {
     padding: 4rem 0;
-    grid-template-areas:
-      "left"
-      "right";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
   }
 
   .title {
@@ -88,5 +91,9 @@
     margin-left: 2rem;
     margin-right: 2rem;
   }
-  
+
+  .content {
+    padding: 0;
+  }
+
 }
