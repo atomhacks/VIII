@@ -24,7 +24,9 @@
 
 .sub {
   text-align: center;
-  margin: 5rem 0;
+  font-size: 200%;
+  margin-top: 6rem;
+  font-weight: 500;
 }
 
 .logo {
@@ -39,7 +41,7 @@
 
 @media screen and (max-width: 1025px) {
   .title {
-    font-size: 400%;
+    font-size: 475%;
   }
 
   .sponsorDiv {
@@ -54,6 +56,16 @@
   .title {
     padding: 0;
     font-size: 350%;
+  }
+
+  .smallPlanet {
+    width: 400px;
+  }
+
+  .sub {
+    font-size: 160%;
+    margin-top: 3.5rem;
+    font-weight: 300;
   }
 
 }

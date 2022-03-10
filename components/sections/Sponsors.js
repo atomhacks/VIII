@@ -38,14 +38,7 @@ const Sponsor = () => {
   return (
     <div className={sponsorStyles.sponsorDiv} id="sponsors">
       <h1 className={sponsorStyles.title}>Sponsors</h1>
-      <p
-        style={{
-          textAlign: "center",
-          fontSize: "200%",
-          marginTop: "6rem",
-          fontWeight: "500",
-        }}
-      >
+      <p className={sponsorStyles.sub}>
         Thanks to our wonderful sponsors for making AtomHacks possible!
       </p>
 
@@ -59,8 +52,8 @@ const Sponsor = () => {
           <Image
             src="/images/sponsors/small_planet.png"
             alt="logo"
-            width={200}
-            height={250}
+            width={250}
+            height={300}
           />
         </a>
         {Sponsors.map((spons, i) => (
