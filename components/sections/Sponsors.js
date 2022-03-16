@@ -28,6 +28,11 @@ const Sponsors = [
     link: "https://vercel.com/",
   },
   {
+    name: "echo3d",
+    path: "echo3d.png",
+    link: "https://www.echo3d.co/",
+  },
+  {
     name: "alumni foundation",
     path: "alumni_foundation.png",
     link: "",
