@@ -23,7 +23,7 @@ export default function Gallery() {
           <p className={galleryStyles.gridCaption}>This was the first year that the hackathon went online</p>
           <div className={galleryStyles.gridImages}>
             {array1.map((image, i) => (
-                <div className={galleryStyles.gridImage}>
+                <div className={galleryStyles.gridImage} key={i}>
                   <Image
                   src = {image}
                   alt = "img"
@@ -39,7 +39,7 @@ export default function Gallery() {
           <p className={galleryStyles.gridCaption}>A great year for the hackathon</p>
           <div className={galleryStyles.gridImages}>
             {array2.map((image, i) => (
-                <div className={galleryStyles.gridImage}>
+                <div className={galleryStyles.gridImage} key={i}>
                   <Image
                   src = {image}
                   alt = "img"
