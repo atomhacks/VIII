@@ -1,4 +1,4 @@
-# website-v2
+# Website v2
 Atomhacks website but built w/ new technologies + redesigned
 
 
